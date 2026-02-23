@@ -70,7 +70,7 @@ The DQN consists of:
 x = F.relu(self.fc1(state))
 x = F.relu(self.fc2(x))
 x = self.fc3(x)
-
+```
 ---
 
 ## Training
@@ -91,7 +91,7 @@ To improve precision when landing:
 
 ```python
 reward -= 0.2 * abs(x_pos)
-
+```
 
 ## Reward Shaping
 
@@ -101,7 +101,7 @@ To improve precision when landing:
 
 ```python
 reward -= 0.1 * abs(x_vel)
-
+```
 
 ## Bonus for Being Near the Center
 
@@ -110,7 +110,7 @@ To encourage precise landing, the agent receives a bonus reward when it is close
 ```python
 if abs(x_pos) < 0.05:
     reward += 5.0
-
+```
 This helps the agent consistently land between the flags.
 
 
@@ -151,6 +151,6 @@ Trained agent performance can be visualized using `imageio`:
 ```python
 show_video_of_model(agent, 'LunarLander-v3')
 show_video()
-
+```
 
 This produces an mp4 video showing the agent landing successfully.
