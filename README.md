@@ -142,7 +142,7 @@ Episode 200  Average Score: -68
 Episode 300  Average Score: -0.2
 Episode 400  Average Score: 137
 Episode 440  Average Score: 200.6
-
+```
 
 ## Video Visualization
 
