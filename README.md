@@ -41,6 +41,7 @@ pip install gymnasium
 pip install "gymnasium[box2d]"
 pip install torch torchvision torchaudio
 pip install imageio
+```
 
 # Deep Q-Learning for LunarLander-v3
 
