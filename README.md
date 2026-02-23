@@ -93,8 +93,6 @@ To improve precision when landing:
 reward -= 0.2 * abs(x_pos)
 ```
 
-## Reward Shaping
-
 To improve precision when landing:
 
 - **Penalize horizontal velocity**:
